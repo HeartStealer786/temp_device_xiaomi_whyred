@@ -10,5 +10,9 @@
   {
     "repository": "vendor_dirac",
     "target_path": "vendor/dirac"
+  },
+  {
+    "repository": "vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera"
   }
 ]
