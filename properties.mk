@@ -97,7 +97,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1  \
-    persist.dbg.wfc_avail_ovr=1
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.vendor.ims.disableUserAgent=0 \
+    persist.radio.calls.on.ims=1 \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true 
+
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -174,6 +180,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.mot_detect=true \
     ro.vendor.sensors.pmd=true \
     ro.vendor.sensors.sta_detect=true
+
+#Vowifi
+ persist.radio.aosp_usr_pref_sel=true \
+    persist.radio.VT_ENABLE=1 \
+    persist.radio.volte.dan_support=true \
+    persist.data.iwlan=1 \
+    persist.data.iwlan.ipsec.ap=1 \
+    persist.sys.cust.lte_config=true \
+    persist.radio.data_ltd_sys_ind=1 \
+    persist.radio.rat_on=combine 
+
+# iwlan vowifi corresponding
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.data.iwlan.enable=true
+
 
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
