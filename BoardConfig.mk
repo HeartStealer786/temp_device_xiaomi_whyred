@@ -33,6 +33,8 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
 
+TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
+
 # FM
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
@@ -46,6 +48,9 @@ TARGET_KERNEL_CONFIG := whyred_defconfig
 
 # RIL
 TARGET_USES_OLD_MNC_FORMAT := true
+
+# Power
+TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
