@@ -25,13 +25,8 @@
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
 
 # Dirac
-$(call inherit-product-if-exists, vendor/dirac/dirac.mk)
+$(call inherit-product, vendor/dirac/dirac.mk)
 
-# MiuiCamera
-$(call inherit-product, vendor/MiuiCamera/config.mk)
-
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 COMMON_PATH := device/xiaomi/sdm660-common
 
