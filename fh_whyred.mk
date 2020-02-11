@@ -20,19 +20,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Inherit some common aosip stuff
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+#$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := stag_whyred
+PRODUCT_NAME := fh_whyred
 PRODUCT_MODEL := Redmi Note 5 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
