@@ -3020,14 +3020,10 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
     </carrier_config>
-</carrier_config_list>
-
-  <carrier_config mcc="404">
+<carrier_config mcc="404">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
-
-   
 <carrier_config mcc="404" mnc="02,03,06,10,16,30,31,40,45,49,61,70,90,92,93,94,95,96,97,98">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
@@ -3037,8 +3033,7 @@
         <boolean name="carrier_vt_available_bool" value="true" />
 	<boolean name="config_update_service_status" value="true"/>
     </carrier_config>
-
- <carrier_config mcc="404" mnc="82">
+<carrier_config mcc="404" mnc="82">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -3047,12 +3042,10 @@
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="config_update_service_status" value="true"/>
 </carrier_config>
-
 <carrier_config mcc="405">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
-
 <carrier_config mcc="405" mnc="840,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874">
 <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
@@ -3062,8 +3055,7 @@
         <boolean name="carrier_vt_available_bool" value="true" />
 	<boolean name="config_update_service_status" value="true"/>
     </carrier_config>
-
-    <carrier_config>
+  <carrier_config>
         <string-array name="ratchet_rat_families" num="3">
         <item value="1,2" />
         <item value="7,8,12" />

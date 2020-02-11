@@ -71,3 +71,5 @@
 /sys/devices/platform/HardwareInfo/gsensor  u:object_r:sysfs_info:s0
 
 
+# Hall Switch
+/sys/module/hall/parameters(/.*)?               u:object_r:hall_dev:s0
