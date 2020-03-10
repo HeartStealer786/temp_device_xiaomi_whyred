@@ -116,6 +116,10 @@ on boot
     chown system system /sys/touchpanel/double_tap
     chown system system /sys/touchpanel/reversed_keys
 
+   # Touchscreen
+    chown system system /proc/tp_gesture 
+    chmod 0660  /proc/tp_gesture
+
 #Peripheral manager
 service vendor.per_mgr /system/vendor/bin/pm-service
     class core
