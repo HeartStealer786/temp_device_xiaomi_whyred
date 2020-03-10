@@ -19,3 +19,6 @@ set_prop(hal_power_default, power_prop)
 
 # To dump
 allow hal_power_default cgroup:file read;
+
+#DT2W
+allow hal_power_default sysfs_tap_to_wake:file rw_file_perms;
