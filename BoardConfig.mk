@@ -31,6 +31,11 @@ DEVICE_PATH := device/xiaomi/whyred
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+
+TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
+
 # Power
 TARGET_USES_NON_LEGACY_POWERHAL := true
 
