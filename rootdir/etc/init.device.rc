@@ -32,6 +32,7 @@ on boot
     chmod 0660 /sys/android_camera/sensor
     chown system system /sys/android_camera/sensor
 
+on boot
 # Touchscreen Gestures / DT2W
     chown system system /proc/tp_gesture
     chown 0660 /proc/tp_gesture
