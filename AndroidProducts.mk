@@ -1,4 +1,4 @@
-#
+
 # Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_whyred.mk
+    $(LOCAL_DIR)/aosp_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_whyred-user \
-    aosip_whyred-userdebug \
-    aosip_whyred-eng
+    aosp_whyred-user \
+    aosp_whyred-userdebug \
+    aosp_whyred-eng
