@@ -18,7 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-   ro.sf.lcd_density=400
+   ro.sf.lcd_density=410
 
 # USB debugging at boot
 PRODUCT_PROPERTY_OVERRIDES += \

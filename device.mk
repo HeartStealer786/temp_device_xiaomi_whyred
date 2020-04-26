@@ -66,7 +66,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-du
+    $(DEVICE_PATH)/overlay-aosp
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -89,6 +89,11 @@ PRODUCT_COPY_FILES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
+
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/whyred/whyred-vendor.mk)
